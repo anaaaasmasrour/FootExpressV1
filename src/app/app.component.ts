@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
+import { PlayersComponent } from './players/players.component';
+import { AccueilComposantComponent } from './components/accueil-composant/accueil-composant.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
